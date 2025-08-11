@@ -64,6 +64,21 @@ canvas{
     color: transparent;
 }
 
+#page p{
+    position: absolute;
+    top: 58%;
+    left: 2%;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #7c7c7c;
+}
+
+#page h4{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    color: #7c7c7c;
+}
 @keyframes sliding{
     0%{
         transform: translate(0%);
