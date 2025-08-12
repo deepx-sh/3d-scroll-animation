@@ -33,9 +33,10 @@ html,body{
     background-color: #f1f1f1;
 }
 #page3{
+    position: relative;
     height: 100vh;
     width: 100vw;
-    background-color:green;
+    background-color:#f1f1f1;
 }
 
 canvas{
@@ -124,8 +125,33 @@ canvas{
     position: absolute;
     top: 65%;
     left: 58%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
+#page3 .left-box{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+#page3 .left-box .left-para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#page3 .right-box{
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+
+#page3 .right-box .right-para{
+    margin-bottom: 1rem;
+}
+
+#page3 .right-box .right-heading{
+    text-align: end;
+}
 @keyframes sliding{
     0%{
         transform: translate(0%);
