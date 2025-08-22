@@ -17,7 +17,7 @@ It uses **Canvas**, **GSAP**, and **ScrollTrigger** to create smooth 3D-like ani
 
 ## 🚀 Live Site
 
-[Click to view](https://yourusername.github.io/3d-scroll-animation/)
+[Click to view](https://deepx-sh.github.io/3d-scroll-animation/)
 
 ---
 
